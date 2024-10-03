@@ -1,0 +1,35 @@
+# frontend dependencies
+frontend/node_modules
+frontend/.pnp
+.pnp.js
+# frontend testing
+frontend/coverage
+# frontend production
+frontend/build
+
+# backend build output
+backend/target/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# キャッシュファイル
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# エディタ固有の設定ファイル
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
