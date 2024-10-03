@@ -6,7 +6,7 @@ services:
       - "8080:8080"
     volumes:
       - ./backend:/usr/src/app
-    command: cargo run
+    command: cargo run --release
     depends_on:
       - db
 
